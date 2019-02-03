@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+eureka:  
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+
+spring:
+  security:
+    user:
+      name: admin
+      password: GreenCard

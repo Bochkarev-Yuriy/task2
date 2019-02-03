@@ -1,7 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea/workspace.xml
-config-service/src/test/
-config-service/target/
-src/
-task2.iml
+.idea/*
+*.iml
